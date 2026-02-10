@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+  <title>Главная</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="index.html" class="header__logo logo"><img src="img/logo.svg" alt="Company Logo" class="logo-img"></a>
+        <div class="header__navigation">
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <nav class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+                  <li class="menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+                  <li class="menu__item"><a href="services.html" class="menu__link">Услуги</a></li>
+                  <li class="menu__item"><a href="contact.html" class="menu__link">Контакты  (+992)1234567890</a></li>
+                </ul>
+                <a href="#" class="actions-header__button">Связаться</a>
+              </nav>
+          </div>
+          <div class="header__actions actions-header">
+            <button type="button" class="menu__icon icon-menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="page__main main">
+        <div class="main__container">
+          <h3 class="main__caption">Веб‑студия</h3>
+          <h1 class="main__title">Создаём сайты, которые продают</h1>
+          <div class="main__text">
+            Быстрые, удобные и адаптивные веб‑решения для роста вашего бизнеса.
+          </div>
+          <a href="#" class="main__button">Подробнее</a>
+        </div>
+      </section>
+      <!-- ANIMATED DOG SECTION -->
+      <section class="page__dog dog-animation">
+        <svg class="animated-dog" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Хвост -->
+          <g class="dog-tail" transform="translate(320, 120)">
+            <path d="M 0 0 Q 30 -40 40 -80" stroke="#8B4513" stroke-width="15" fill="none" stroke-linecap="round"/>
+          </g>
+          
+          <!-- Тело -->
+          <ellipse cx="220" cy="140" rx="80" ry="70" fill="#D2691E" class="dog-body"/>
+          
+          <!-- Передние лапы -->
+          <rect x="180" y="200" width="15" height="60" rx="7" fill="#8B4513" class="dog-leg dog-leg-front-left"/>
+          <rect x="240" y="200" width="15" height="60" rx="7" fill="#8B4513" class="dog-leg dog-leg-front-right"/>
+          
+          <!-- Задние лапы -->
+          <rect x="120" y="200" width="15" height="60" rx="7" fill="#A0522D" class="dog-leg dog-leg-back-left"/>
+          <rect x="280" y="200" width="15" height="60" rx="7" fill="#A0522D" class="dog-leg dog-leg-back-right"/>
+          
+          <!-- Шея -->
+          <rect x="200" y="100" width="50" height="50" rx="25" fill="#CD853F"/>
+          
+          <!-- Голова -->
+          <circle cx="225" cy="70" r="45" fill="#D2691E" class="dog-head"/>
+          
+          <!-- Левое ухо -->
+          <ellipse cx="185" cy="35" rx="20" ry="35" fill="#8B4513" class="dog-ear" transform="rotate(-25 185 35)"/>
+          
+          <!-- Правое ухо -->
+          <ellipse cx="265" cy="35" rx="20" ry="35" fill="#8B4513" class="dog-ear" transform="rotate(25 265 35)"/>
+          
+          <!-- Морда -->
+          <ellipse cx="225" cy="85" rx="30" ry="25" fill="#CD853F"/>
+          
+          <!-- Нос -->
+          <circle cx="225" cy="80" r="8" fill="#2F1B0C" class="dog-nose"/>
+          
+          <!-- Левый глаз -->
+          <circle cx="210" cy="60" r="6" fill="#2F1B0C" class="dog-eye"/>
+          <circle cx="211" cy="59" r="2" fill="#FFFFFF"/>
+          
+          <!-- Правый глаз -->
+          <circle cx="240" cy="60" r="6" fill="#2F1B0C" class="dog-eye"/>
+          <circle cx="241" cy="59" r="2" fill="#FFFFFF"/>
+          
+          <!-- Рот -->
+          <path d="M 225 90 Q 220 98 215 96" stroke="#2F1B0C" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M 225 90 Q 230 98 235 96" stroke="#2F1B0C" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </section>
+      <section class="page__about about">
+        <div class="about__container">
+          <div class="about__image"><img src="Website-Images/Home/Home-About.jpg" alt="img" /></div>
+          <div class="about__content">
+            <h2 class="about__title title">О нас</h2>
+            <div class="about__text">
+              <p>
+                About Text: In this section, you can provide a detailed paragraph that delves into the history,
+                values, and mission of your web development business. Highlight expertise, unique approach of your
+                team, and the commitment that sets you apart.
+              </p>
+              <p>
+                Emphasize your passion for creating exceptional web solutions and convey your dedication to delivering
+                remarkable results for clients.
+              </p>
+            </div>
+            <a href="#" class="about__button button">Подробнее</a>
+          </div>
+        </div>
+      </section>
+      <section class="page__services services">
+        <div class="services__container">
+          <h2 class="services__title title">Наши услуги</h2>
+          <div class="services__row">
+            <div class="services__column">
+              <div class="services__item item-services">
+                <a class="item-services__top" href="#">
+                  <div class="item-services__image">
+                    <img src="Website-Images/Home/Home-Service-1.png" alt="img" />
+                  </div>
+                  <h3 class="item-services__title">Первая услуга</h3>
+                </a>
+                <div class="item-services__text">
+                  Craft a brief description outlining the essence of your first service.
+                </div>
+                <a href="#" class="item-services__button button">CTA Button</a>
+              </div>
+            </div>
+            <div class="services__column">
+              <div class="services__item item-services">
+                <a class="item-services__top" href="#">
+                  <div class="item-services__image">
+                    <img src="Website-Images/Home/Home-Service-2.png" alt="img" />
+                  </div>
+                  <h3 class="item-services__title">Вторая услуга</h3>
+                </a>
+                <div class="item-services__text">
+                  Write a concise statement highlighting the core features of your second service.
+                </div>
+                <a href="#" class="item-services__button button">CTA Button</a>
+              </div>
+            </div>
+            <div class="services__column">
+              <div class="services__item item-services">
+                <a class="item-services__top" href="#">
+                  <div class="item-services__image">
+                    <img src="Website-Images/Home/Home-Service-3.png" alt="img" />
+                  </div>
+                  <h3 class="item-services__title">Третья услуга</h3>
+                </a>
+                <div class="item-services__text">
+                  Provide a succinct overview key offerings of your third service.
+                </div>
+                <a href="#" class="item-services__button button">CTA Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__testimonial testimonial">
+        <div class="testimonial__container">
+          <h3 class="testiomonial__caption">Отзыв</h3>
+          <h2 class="testimonial__title title">
+            Здесь будет подробный отзыв с аргументированными деталями и впечатляющими фактами.
+          </h2>
+          <div class="testimonial__item item-testimonial">
+            <div class="item-testimonial__image">
+            
+            </div>
+            <h4 class="item-testimonial__title">Full Name</h4>
+            <div class="item-testimonial__caption">Job</div>
+          </div>
+        </div>
+      </section>
+      <section class="page__outro outro outro_home">
+        <div class="outro__container">
+          <h2 class="outro__title title">Свяжитесь с нами</h2>
+          <div class="outro__text">
+            Напишите нам — мы с удовольствием ответим на ваши вопросы и обсудим возможное сотрудничество.
+          </div>
+          <a href="#" class="outro__button button">Связаться</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a href="#" class="footer__policy">Политика конфиденциальности – Условия использования</a>
+        <a href="" class="footer__logo logo"><img src="img/logo.svg" alt="Company Logo" class="logo-img" style="height: 35px;"></a>
+        <div class="footer__copyright">Авторские права © 2025 Компания – Все права защищены</div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
